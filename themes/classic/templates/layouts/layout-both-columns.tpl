@@ -53,7 +53,7 @@
       {/block}
 
       <section id="wrapper">
-          asd
+          TEST COMMIT FROM DEV
         {hook h="displayWrapperTop"}
         <div class="container">
           {block name='breadcrumb'}
