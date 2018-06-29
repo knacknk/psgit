@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-06-29 16:22:48
+<?php /* Smarty version Smarty-3.1.19, created on 2018-06-29 17:38:05
          compiled from "module:ps_contactinfo/ps_contactinfo.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:5766767785b3632a82a4a68-14551999%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:18449410955b36444d1042e5-19197961%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '5766767785b3632a82a4a68-14551999',
+  'nocache_hash' => '18449410955b36444d1042e5-19197961',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5b3632a82b0360_90132845',
+  'unifunc' => 'content_5b36444d114330_14920803',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b3632a82b0360_90132845')) {function content_5b3632a82b0360_90132845($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_contactinfo/ps_contactinfo.tpl -->
+<?php if ($_valid && !is_callable('content_5b36444d114330_14920803')) {function content_5b36444d114330_14920803($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_contactinfo/ps_contactinfo.tpl -->
 
 <div class="block-contact col-md-4 links wrapper">
   <div class="hidden-sm-down">
