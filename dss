@@ -1,0 +1,53 @@
+[33mcommit d44d6d86f8cedc751b66616b112a3d3dcc389500[m
+Author: Alex Hrehorciuc <knacknk@yahoo.com>
+Date:   Fri Jun 29 16:15:39 2018 +0300
+
+    redo layout-both-columns.tpl
+
+[33mcommit f0572352f033696abbb9716544a656405850fa5a[m
+Author: Alex Hrehorciuc <knacknk@yahoo.com>
+Date:   Fri Jun 29 16:11:35 2018 +0300
+
+    commit from dev
+
+[33mcommit 1eb7424e71961f0d8551d4be8e8b38fcdb5881b2[m
+Author: Alex Hrehorciuc <knacknk@yahoo.com>
+Date:   Fri Jun 29 16:02:42 2018 +0300
+
+    delete cache
+
+[33mcommit 3e37cf3394681c5a3049d1ba91043057f2ae5923[m
+Author: Alex Hrehorciuc <knacknk@yahoo.com>
+Date:   Fri Jun 29 15:29:17 2018 +0300
+
+    commit index.tpl
+
+[33mcommit 2ab08958fc2488c5c5c97e94593b5828ca124d26[m
+Author: Alex Hrehorciuc <knacknk@yahoo.com>
+Date:   Fri Jun 29 15:25:45 2018 +0300
+
+    commit contact.tpl
+
+[33mcommit 9b8b278dacd1d8e425749d042b5fe77d5dd24e3e[m
+Author: Alex Hrehorciuc <knacknk@yahoo.com>
+Date:   Fri Jun 29 15:18:34 2018 +0300
+
+    modified page.tpl
+
+[33mcommit b79ebfa0318b0c1be9bd937adb7794d2f5dc19c9[m
+Author: Alex Hrehorciuc <knacknk@yahoo.com>
+Date:   Fri Jun 29 13:38:37 2018 +0300
+
+    rename admin to sec_admin
+
+[33mcommit fa7ba7ec6f73a94b0bb9373a8023995fc1b2c278[m
+Author: Alex Hrehorciuc <knacknk@yahoo.com>
+Date:   Fri Jun 29 13:31:43 2018 +0300
+
+    presta
+
+[33mcommit 9f207a8c7a4a4f96d99b3e3738fcb0eacd054e5a[m
+Author: Alex Hrehorciuc <knacknk@yahoo.com>
+Date:   Fri Jun 29 13:00:33 2018 +0300
+
+    Initial commit
