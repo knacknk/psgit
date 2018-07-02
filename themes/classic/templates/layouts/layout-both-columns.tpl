@@ -48,7 +48,7 @@
         {/block}
       </header>
 
-      {block name='notifications'}
+      {block name='nmihotifications'}
         {include file='_partials/notifications.tpl'}
       {/block}
 
