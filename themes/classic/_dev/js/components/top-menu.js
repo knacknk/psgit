@@ -5,7 +5,11 @@ export default class TopMenu extends DropDown {
 
 }
 
+<<<<<<< HEAD
 if ($('#sec_desktop_top_menu').is(":visible")) {
+=======
+if ($('#_desktop_top_menu').is(":visible")) {
+>>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
   $('.top-menu[data-depth=0] li > .sub-menu').parent().hover(function () {
     var submenu = $(this).children('.sub-menu');
     if ($(submenu).is(':hidden')) {
@@ -23,14 +27,22 @@ if ($('#sec_desktop_top_menu').is(":visible")) {
       $(submenu2).hide();
     }
   });
+<<<<<<< HEAD
 
 } else {
   $('#menu-icon').on('click', function() {
     $('#sec_desktop_top_menu').toggle();
+=======
+}else {
+  $('#menu-icon').on('click', function() {
+    $('#mobile_top_menu_wrapper').toggle();
+    $('.top-menu[data-depth=0] > .navbar-toggler').css('display', 'none');
+>>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
   });
 
 }
 
+<<<<<<< HEAD
 //New menu
 if ( $(window).width() > 992) {
   var header = document.getElementById("myHeader");
@@ -74,3 +86,7 @@ if ( $(window).width() > 992) {
   });
 
 }
+=======
+
+
+>>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
