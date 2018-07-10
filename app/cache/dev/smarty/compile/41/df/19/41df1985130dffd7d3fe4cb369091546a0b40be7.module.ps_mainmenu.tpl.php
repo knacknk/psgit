@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-07-05 15:53:31
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 09:17:13
          compiled from "module:ps_mainmenu/ps_mainmenu.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:20280940715b3e14cbf15e72-77329336%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4676181235b444f69ad54a1-71934369%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '41df1985130dffd7d3fe4cb369091546a0b40be7' => 
     array (
       0 => 'module:ps_mainmenu/ps_mainmenu.tpl',
-      1 => 1530268792,
+      1 => 1531123905,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '20280940715b3e14cbf15e72-77329336',
+  'nocache_hash' => '4676181235b444f69ad54a1-71934369',
   'function' => 
   array (
     'menu' => 
@@ -33,70 +33,101 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'depth' => 0,
     'node' => 0,
     '_counter' => 0,
+    'image_url' => 0,
     '_expand_id' => 0,
+    'page' => 0,
     'menu' => 0,
   ),
   'has_nocache_code' => 0,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5b3e14cc06aac7_44914884',
+  'unifunc' => 'content_5b444f69d23591_70142137',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b3e14cc06aac7_44914884')) {function content_5b3e14cc06aac7_44914884($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_mainmenu/ps_mainmenu.tpl --><?php $_smarty_tpl->tpl_vars['_counter'] = new Smarty_variable(0, null, 0);?>
+<?php if ($_valid && !is_callable('content_5b444f69d23591_70142137')) {function content_5b444f69d23591_70142137($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_mainmenu/ps_mainmenu.tpl --><?php $_smarty_tpl->tpl_vars['_counter'] = new Smarty_variable(0, null, 0);?>
 <?php if (!function_exists('smarty_template_function_menu')) {
     function smarty_template_function_menu($_smarty_tpl,$params) {
     $saved_tpl_vars = $_smarty_tpl->tpl_vars;
     foreach ($_smarty_tpl->smarty->template_functions['menu']['parameter'] as $key => $value) {$_smarty_tpl->tpl_vars[$key] = new Smarty_variable($value);};
     foreach ($params as $key => $value) {$_smarty_tpl->tpl_vars[$key] = new Smarty_variable($value);}?>
     <?php if (count($_smarty_tpl->tpl_vars['nodes']->value)) {?>
-      <ul class="top-menu" <?php if ($_smarty_tpl->tpl_vars['depth']->value==0) {?>id="top-menu"<?php }?> data-depth="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['depth']->value, ENT_QUOTES, 'UTF-8');?>
+        <ul class="top-menu" <?php if ($_smarty_tpl->tpl_vars['depth']->value==0) {?>id="top-menu"<?php }?> data-depth="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['depth']->value, ENT_QUOTES, 'UTF-8');?>
 ">
-        <?php  $_smarty_tpl->tpl_vars['node'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['node']->_loop = false;
+            <?php  $_smarty_tpl->tpl_vars['node'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['node']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['nodes']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['node']->key => $_smarty_tpl->tpl_vars['node']->value) {
 $_smarty_tpl->tpl_vars['node']->_loop = true;
 ?>
-            <li class="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['node']->value['type'], ENT_QUOTES, 'UTF-8');?>
+                <li class="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['node']->value['type'], ENT_QUOTES, 'UTF-8');?>
 <?php if ($_smarty_tpl->tpl_vars['node']->value['current']) {?> current <?php }?>" id="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['node']->value['page_identifier'], ENT_QUOTES, 'UTF-8');?>
 ">
-            <?php $_smarty_tpl->tpl_vars['_counter'] = new Smarty_variable($_smarty_tpl->tpl_vars['_counter']->value+1, null, 0);?>
-              <a
-                class="<?php if ($_smarty_tpl->tpl_vars['depth']->value>=0) {?>dropdown-item<?php }?><?php if ($_smarty_tpl->tpl_vars['depth']->value===1) {?> dropdown-submenu<?php }?>"
-                href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['node']->value['url'], ENT_QUOTES, 'UTF-8');?>
-" data-depth="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['depth']->value, ENT_QUOTES, 'UTF-8');?>
+                    <?php $_smarty_tpl->tpl_vars['_counter'] = new Smarty_variable($_smarty_tpl->tpl_vars['_counter']->value+1, null, 0);?>
+                    <a
+                            class="<?php if ($_smarty_tpl->tpl_vars['depth']->value>=0) {?>dropdown-item<?php }?><?php if ($_smarty_tpl->tpl_vars['depth']->value===1) {?> dropdown-submenu <?php }?>"
+                            href="<?php if ($_smarty_tpl->tpl_vars['node']->value['label']=='Categorii produse') {?>#<?php } else { ?><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['node']->value['url'], ENT_QUOTES, 'UTF-8');?>
+<?php }?>" data-depth="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['depth']->value, ENT_QUOTES, 'UTF-8');?>
 "
-                <?php if ($_smarty_tpl->tpl_vars['node']->value['open_in_new_window']) {?> target="_blank" <?php }?>
-              >
-                <?php if (count($_smarty_tpl->tpl_vars['node']->value['children'])) {?>
-                  
-                  <?php $_smarty_tpl->tpl_vars['_expand_id'] = new Smarty_variable(mt_rand(10,100000), null, 0);?>
-                  <span class="float-xs-right hidden-md-up">
-                    <span data-target="#top_sub_menu_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['_expand_id']->value, ENT_QUOTES, 'UTF-8');?>
+                            <?php if ($_smarty_tpl->tpl_vars['node']->value['open_in_new_window']) {?> target="_blank" <?php }?>
+                    >
+                        <?php if ($_smarty_tpl->tpl_vars['node']->value['image_urls']) {?>
+                            <?php  $_smarty_tpl->tpl_vars['image_url'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['image_url']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['node']->value['image_urls']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['image_url']->key => $_smarty_tpl->tpl_vars['image_url']->value) {
+$_smarty_tpl->tpl_vars['image_url']->_loop = true;
+?>
+                                <img src="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['image_url']->value, ENT_QUOTES, 'UTF-8');?>
+" title="" alt="" />
+                            <?php } ?>
+                        <?php }?>
+
+                        <?php if (count($_smarty_tpl->tpl_vars['node']->value['children'])) {?>
+                            
+                            <?php $_smarty_tpl->tpl_vars['_expand_id'] = new Smarty_variable(mt_rand(10,100000), null, 0);?>
+                            <span class="float-xs-right hidden-lg-up">
+                                <span data-target="#top_sub_menu_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['_expand_id']->value, ENT_QUOTES, 'UTF-8');?>
 " data-toggle="collapse" class="navbar-toggler collapse-icons">
-                      <i class="material-icons add">&#xE313;</i>
-                      <i class="material-icons remove">&#xE316;</i>
-                    </span>
-                  </span>
-                <?php }?>
-                <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['node']->value['label'], ENT_QUOTES, 'UTF-8');?>
+                                    <?php if ($_smarty_tpl->tpl_vars['depth']->value===0) {?>
 
-              </a>
-              <?php if (count($_smarty_tpl->tpl_vars['node']->value['children'])) {?>
-              <div <?php if ($_smarty_tpl->tpl_vars['depth']->value===0) {?> class="popover sub-menu js-sub-menu collapse"<?php } else { ?> class="collapse"<?php }?> id="top_sub_menu_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['_expand_id']->value, ENT_QUOTES, 'UTF-8');?>
+                                    <?php } elseif ($_smarty_tpl->tpl_vars['depth']->value!==0) {?>
+                                        <i class="material-icons add">&#xE313;</i>
+                                        <i class="material-icons remove">&#xE316;</i>
+                                    <?php }?>
+                                </span>
+                            </span>
+                        <?php }?>
+                        <?php echo htmlspecialchars($_smarty_tpl->tpl_vars['node']->value['label'], ENT_QUOTES, 'UTF-8');?>
+
+                    </a>
+                    <?php if (count($_smarty_tpl->tpl_vars['node']->value['children'])) {?>
+                        <div <?php if ($_smarty_tpl->tpl_vars['depth']->value===0) {?> class="popover sub-menu js-sub-menu collapse" <?php } elseif ($_smarty_tpl->tpl_vars['depth']->value===2) {?>class="popover sub-menu2 js-sub-menu2 collapse" <?php } else { ?>class="collapse"<?php }?> id="top_sub_menu_<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['_expand_id']->value, ENT_QUOTES, 'UTF-8');?>
 ">
-                <?php smarty_template_function_menu($_smarty_tpl,array('nodes'=>$_smarty_tpl->tpl_vars['node']->value['children'],'depth'=>$_smarty_tpl->tpl_vars['node']->value['depth'],'parent'=>$_smarty_tpl->tpl_vars['node']->value));?>
+                            <?php smarty_template_function_menu($_smarty_tpl,array('nodes'=>$_smarty_tpl->tpl_vars['node']->value['children'],'depth'=>$_smarty_tpl->tpl_vars['node']->value['depth'],'parent'=>$_smarty_tpl->tpl_vars['node']->value));?>
 
-              </div>
-              <?php }?>
-            </li>
-        <?php } ?>
-      </ul>
+                        </div>
+                        <?php if ($_smarty_tpl->tpl_vars['page']->value['page_name']=='index') {?>
+                            <style>
+                                .sub-menu {
+                                    display:block!important;
+                                }
+                            </style>
+                        <?php }?>
+                    <?php }?>
+                </li>
+            <?php } ?>
+        </ul>
     <?php }?>
 <?php $_smarty_tpl->tpl_vars = $saved_tpl_vars;
 foreach (Smarty::$global_tpl_vars as $key => $value) if(!isset($_smarty_tpl->tpl_vars[$key])) $_smarty_tpl->tpl_vars[$key] = $value;}}?>
 
 
-<div class="menu js-top-menu position-static hidden-sm-down" id="_desktop_top_menu">
-    <?php smarty_template_function_menu($_smarty_tpl,array('nodes'=>$_smarty_tpl->tpl_vars['menu']->value['children']));?>
+<div class="menu col-lg-12 js-top-menu position-static" id="sec_desktop_top_menu">
 
-    <div class="clearfix"></div>
+    <div class="container">
+        <?php smarty_template_function_menu($_smarty_tpl,array('nodes'=>$_smarty_tpl->tpl_vars['menu']->value['children']));?>
+
+        <div class="clearfix"></div>
+    </div>
+
 </div>
+
+
+
 <!-- end C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_mainmenu/ps_mainmenu.tpl --><?php }} ?>

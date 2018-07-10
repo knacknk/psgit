@@ -1,39 +1,83 @@
-{**
- * 2007-2017 PrestaShop
- *
- * NOTICE OF LICENSE
- *
- * This source file is subject to the Academic Free License 3.0 (AFL-3.0)
- * that is bundled with this package in the file LICENSE.txt.
- * It is also available through the world-wide-web at this URL:
- * https://opensource.org/licenses/AFL-3.0
- * If you did not receive a copy of the license and are unable to
- * obtain it through the world-wide-web, please send an email
- * to license@prestashop.com so we can send you a copy immediately.
- *
- * DISCLAIMER
- *
- * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
- * versions in the future. If you wish to customize PrestaShop for your
- * needs please refer to http://www.prestashop.com for more information.
- *
- * @author    PrestaShop SA <contact@prestashop.com>
- * @copyright 2007-2017 PrestaShop SA
- * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
- * International Registered Trademark & Property of PrestaShop SA
- *}
-<div id="_desktop_cart">
-  <div class="blockcart cart-preview {if $cart.products_count > 0}active{else}inactive{/if}" data-refresh-url="{$refresh_url}">
-    <div class="header">
-      {if $cart.products_count > 0}
-        <a rel="nofollow" href="{$cart_url}">
-      {/if}
-        <i class="material-icons shopping-cart">shopping_cart</i>
-        <span class="hidden-sm-down">{l s='Cart' d='Shop.Theme.Checkout'}</span>
-        <span class="cart-products-count">({$cart.products_count})</span>
-      {if $cart.products_count > 0}
-        </a>
-      {/if}
+<div id="shoppingcart">
+    <a href="{$cart_url}"><span class="cart-icon"></span></a>
+    <div class="blockcart cart-preview hidden-md-down" data-refresh-url="{$refresh_url}">
+        <div class="header">
+            <a rel="nofollow" href="{$cart_url}" data-target="#cosul-meu" class="cart-info">
+                <span class="hidden-md-down">Cosul meu</span> <br />
+                <span class="cart_total hidden-md-down">{$cart.totals.total_including_tax.value}</span>
+                <span class="cart-products-count">{$cart.products_count}</span>
+            </a>
+
+        </div>
     </div>
-  </div>
+    <span class="down-arrow hidden-md-down"></span>
+
+
+    <div style="" class="collapse cart-expanded hidden-md-down" id="cart-expanded">
+        {if $cart.products_count > 0}
+            {*DETALLII PRODUSE*}
+            <div class="cart-top">
+                {block name='cart_summary_product_list'}
+                    <div data-simplebar>
+                        <ul class="product-line-list">
+                            {foreach from=$cart.products item=product}
+                                {*<pre>{$product|var_dump}</pre>*}
+                                <li class="product-line">
+                                    <div class="product-line-image">
+                                        {if $product.cover}
+                                            <img src="{$product.cover.small.url}" alt="{$product.name}">
+                                        {else}
+                                            <img src="{$urls.no_picture_image.bySize.small_default.url}" alt="{$product.name}">
+                                        {/if}
+                                    </div>
+                                    <div class="product-line-name">
+                                        <a href="{$product.url}">{$product.name}</a>
+                                    </div>
+                                    <div class="product-line-qty-price">
+                                        <span class="qty-price">{$product.quantity} x {$product.price}</span>
+                                        <span class="qty-price-total">{$product.total}</span>
+                                    </div>
+                                </li>
+                            {/foreach}
+                        </ul>
+                        <div class="nano-pane" style="display:block!important;"><div class="nano-slider" style="height: 20px; transform: translate(0px, 0px);"></div></div>
+
+                    </div>
+                {/block}
+            </div>
+            {*END DETALLII PRODUSE*}
+
+
+            <div class="cart-bottom">
+                {*PRET FINAL & TAXE*}
+                <div class="cart-summary-line cart-total">
+                    <span class="label">{$cart.totals.total.label} {$cart.labels.tax_short}</span>
+                    <span class="value">{$cart.totals.total.value}</span>
+                </div>
+
+                <div class="cart-summary-line">
+                    <span class="label sub">{$cart.subtotals.tax.label}</span>
+                    <span class="value sub">{$cart.subtotals.tax.value}</span>
+                </div>
+                {*END PRET FINAL & TAXE*}
+
+                {*VEZI COS & FINALIZEAZA COMANDA*}
+                <div>
+                    <div class="text-sm-center">
+                        <a href="{$cart_url}" class="btn btn-primary">Detalii cos</a>
+                    </div>
+                </div>
+                {*END VEZI COS & FINALIZEAZA COMANDA*}
+            </div>
+        {else}
+            <div class="cart-top">
+                <span class="no-products">Nu exista produse in cos.</span>
+            </div>
+        {/if}
+
+
+
+    </div>
+
+
 </div>

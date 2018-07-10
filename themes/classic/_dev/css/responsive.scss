@@ -27,13 +27,6 @@
     }
   }
 
-  #_desktop_top_menu .top-menu li.link {
-    padding:11px 4px!important;
-
-    a {
-      font-size:14px!important;
-    }
-  }
 
   .block_newsletter {
     display:block!important;
@@ -75,12 +68,6 @@
       .cart-icon, .favorites-icon, .account-icon {
         margin-right:0;
       }
-    }
-  }
-
-  .top-menu {
-    .sub-menu {
-      display:block!important;
     }
   }
 
@@ -180,12 +167,6 @@
     }
   }
 
-  .position-static {
-    #sec_search_widget {
-      display:none;
-    }
-  }
-
   #_mobile_search_trigger {
     font-size:25px;
     margin-top:10px;
@@ -200,41 +181,73 @@
     input[type=text] {
       width:100%!important;
     }
+    .spinner {
+      display:none;
+      position:absolute;
+      top:13px;
+      right:50px;
+    }
     button {
       right:0!important;
     }
   }
 
   .header-top {
-    .modal-dialog {
-      width:100%;
-      max-width:100%;
-      margin:0;
+    .modal-open .modal-search {
+      overflow-x:hidden;
+      overflow-y:auto;
+    }
 
-      .modal-content {
-        border:none;
-        border-radius:0;
+    .modal.in .modal-dialog-search {
+      transform:translate(0,0);
+    }
 
-        .modal-body {
-          padding-right:15px;
-          form {
+    .modal-search {
+      display:none;
+      position:fixed;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      z-index:1050;
+      outline:0;
+
+      .modal-dialog-search {
+        position:relative;
+        width:100%;
+        max-width:100%;
+        margin:0;
+
+        .modal-content-search {
+          position:relative;
+          background-color:#fff;
+          background-clip:padding-box;
+          outline:0;
+          border:none;
+          border-radius:0;
+
+          .modal-body-search {
             position:relative;
+            padding:15px;
+            form {
+              position:relative;
 
-            input[type=text] {
-              width:100%;
-              border:1px solid #ccc;
-              padding:10px;
-              &:focus {
-                outline:none;
+              input[type=text] {
+                width:100%;
+                border:1px solid #ccc;
+                padding:10px;
+                &:focus {
+                  outline:none;
+                }
               }
-            }
 
-            button.close {
-              position:absolute;
-              top:0;
-              right:50px;
-              cursor:pointer;
-              height:100%;
+              button.close {
+                position:absolute;
+                top:0;
+                right:50px;
+                cursor:pointer;
+                height:100%;
+              }
             }
           }
         }
