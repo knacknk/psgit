@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 09:17:12
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 14:19:48
          compiled from "module:ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:9832307595b444f6804ad07-01281744%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.19, created on 2018-06-29 17:43:40
-         compiled from "module:ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:11046142365b36459cdd5441-32604763%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+<?php /*%%SmartyHeaderCode:7500452585b449654b287c7-48317445%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -17,11 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-<<<<<<< HEAD
-  'nocache_hash' => '9832307595b444f6804ad07-01281744',
-=======
-  'nocache_hash' => '11046142365b36459cdd5441-32604763',
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+  'nocache_hash' => '7500452585b449654b287c7-48317445',
   'function' => 
   array (
   ),
@@ -33,15 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-<<<<<<< HEAD
-  'unifunc' => 'content_5b444f680ca2c3_73796479',
+  'unifunc' => 'content_5b449654b63e61_67150179',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b444f680ca2c3_73796479')) {function content_5b444f680ca2c3_73796479($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl -->
-=======
-  'unifunc' => 'content_5b36459cddbbe6_52776930',
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b36459cddbbe6_52776930')) {function content_5b36459cddbbe6_52776930($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl -->
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+<?php if ($_valid && !is_callable('content_5b449654b63e61_67150179')) {function content_5b449654b63e61_67150179($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_featuredproducts/views/templates/hook/ps_featuredproducts.tpl -->
 <section class="featured-products clearfix">
   <h1 class="h1 products-section-title text-uppercase">
     <?php echo smartyTranslate(array('s'=>'Popular Products','d'=>'Shop.Theme.Catalog'),$_smarty_tpl);?>

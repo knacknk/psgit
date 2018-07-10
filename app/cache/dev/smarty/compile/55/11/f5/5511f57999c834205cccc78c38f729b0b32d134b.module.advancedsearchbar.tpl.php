@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 09:17:13
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 14:19:53
          compiled from "module:advancedsearchbar/advancedsearchbar.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17168097165b444f699b0186-55419246%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4552772595b449659ce0249-59611229%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '5511f57999c834205cccc78c38f729b0b32d134b' => 
     array (
       0 => 'module:advancedsearchbar/advancedsearchbar.tpl',
-      1 => 1531129643,
+      1 => 1531217390,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '17168097165b444f699b0186-55419246',
+  'nocache_hash' => '4552772595b449659ce0249-59611229',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5b444f699ca485_11163239',
+  'unifunc' => 'content_5b449659cf6929_42266180',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b444f699ca485_11163239')) {function content_5b444f699ca485_11163239($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/modules/advancedsearchbar/advancedsearchbar.tpl --><div id="sec_search_widget" data-search-controller-url="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['search_controller_url']->value, ENT_QUOTES, 'UTF-8');?>
+<?php if ($_valid && !is_callable('content_5b449659cf6929_42266180')) {function content_5b449659cf6929_42266180($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/modules/advancedsearchbar/advancedsearchbar.tpl --><div id="sec_search_widget" data-search-controller-url="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['search_controller_url']->value, ENT_QUOTES, 'UTF-8');?>
 ">
 	<form method="get" action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['search_controller_url']->value, ENT_QUOTES, 'UTF-8');?>
 ">

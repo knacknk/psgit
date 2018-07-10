@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 09:17:14
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 14:19:54
          compiled from "module:ps_linklist/views/templates/hook/linkblock.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:6516988815b444f6a3b36d9-50210855%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.19, created on 2018-06-29 17:43:41
-         compiled from "module:ps_linklist/views/templates/hook/linkblock.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10348719505b36459d03e745-37787309%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+<?php /*%%SmartyHeaderCode:20412357695b44965a2e6015-98212740%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -17,11 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-<<<<<<< HEAD
-  'nocache_hash' => '6516988815b444f6a3b36d9-50210855',
-=======
-  'nocache_hash' => '10348719505b36459d03e745-37787309',
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+  'nocache_hash' => '20412357695b44965a2e6015-98212740',
   'function' => 
   array (
   ),
@@ -34,15 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-<<<<<<< HEAD
-  'unifunc' => 'content_5b444f6a455be2_98348347',
+  'unifunc' => 'content_5b44965a3879a9_45850210',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b444f6a455be2_98348347')) {function content_5b444f6a455be2_98348347($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_linklist/views/templates/hook/linkblock.tpl -->
-=======
-  'unifunc' => 'content_5b36459d048101_58279044',
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b36459d048101_58279044')) {function content_5b36459d048101_58279044($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_linklist/views/templates/hook/linkblock.tpl -->
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+<?php if ($_valid && !is_callable('content_5b44965a3879a9_45850210')) {function content_5b44965a3879a9_45850210($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_linklist/views/templates/hook/linkblock.tpl -->
 <div class="col-md-4 links">
   <div class="row">
   <?php  $_smarty_tpl->tpl_vars['linkBlock'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['linkBlock']->_loop = false;

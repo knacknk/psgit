@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 09:17:13
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 14:19:53
          compiled from "module:ps_contactinfo/nav.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:4586603425b444f694c0664-94117171%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.19, created on 2018-06-29 17:43:40
-         compiled from "module:ps_contactinfo/nav.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17426865235b36459cec5a76-54318041%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+<?php /*%%SmartyHeaderCode:2254970975b4496598cfce8-75622889%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -17,11 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-<<<<<<< HEAD
-  'nocache_hash' => '4586603425b444f694c0664-94117171',
-=======
-  'nocache_hash' => '17426865235b36459cec5a76-54318041',
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+  'nocache_hash' => '2254970975b4496598cfce8-75622889',
   'function' => 
   array (
   ),
@@ -32,15 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-<<<<<<< HEAD
-  'unifunc' => 'content_5b444f695078a9_96305582',
+  'unifunc' => 'content_5b449659918f54_91900988',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b444f695078a9_96305582')) {function content_5b444f695078a9_96305582($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_contactinfo/nav.tpl -->
-=======
-  'unifunc' => 'content_5b36459ceca1d1_87492590',
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b36459ceca1d1_87492590')) {function content_5b36459ceca1d1_87492590($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_contactinfo/nav.tpl -->
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+<?php if ($_valid && !is_callable('content_5b449659918f54_91900988')) {function content_5b449659918f54_91900988($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_contactinfo/nav.tpl -->
 <div id="_desktop_contact_link">
   <div id="contact-link">
     <?php if ($_smarty_tpl->tpl_vars['contact_infos']->value['phone']) {?>

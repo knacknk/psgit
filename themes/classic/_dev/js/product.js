@@ -50,13 +50,13 @@ $(document).ready(function () {
 
   function coverImage() {
     $('.js-thumb').on(
-      'click',
-      (event) => {
-        $('.js-modal-product-cover').attr('src',$(event.target).data('image-large-src'));
-        $('.selected').removeClass('selected');
-        $(event.target).addClass('selected');
-        $('.js-qv-product-cover').prop('src', $(event.currentTarget).data('image-large-src'));
-      }
+        'click',
+        (event) => {
+          $('.js-modal-product-cover').attr('src',$(event.target).data('image-large-src'));
+          $('.selected').removeClass('selected');
+          $(event.target).addClass('selected');
+          $('.js-qv-product-cover').prop('src', $(event.currentTarget).data('image-large-src'));
+        }
     );
   }
 
@@ -120,7 +120,6 @@ $(document).ready(function () {
   }
 });
 
-<<<<<<< HEAD
 // function imageSliders () {
 //   $(document).ready(function(){
 //     $('.slider-nav').slick({
@@ -184,68 +183,3 @@ $(document).ready(function () {
 //     });
 //   });
 // }
-=======
-function imageSliders () {
-  $(document).ready(function(){
-    $('.slider-nav').slick({
-      infinite: false,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      asNavFor: '.slider-for',
-      focusOnSelect: true,
-      arrows: true,
-      vertical: true,
-      responsive: [
-        {
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 3,
-            infinite: false,
-            draggable: true,
-            vertical: false,
-            arrows: false,
-          }
-        },
-        {
-          breakpoint: 767,
-          settings: {
-            slidesToShow: 4,
-            infinite: true,
-            draggable: true,
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            draggable: true,
-          }
-        }
-      ]
-    });
-    $('.slider-for').slick({
-      infinite: false,
-      fade: true,
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: false,
-      draggable: false,
-      responsive: [
-        {
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 1,
-            infinite: false,
-            draggable: true,
-            vertical: false,
-            arrows: false,
-            dots: true,
-            fade: false,
-          }
-        }
-      ]
-    });
-  });
-}
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed

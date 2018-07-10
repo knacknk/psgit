@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-07-09 10:10:45
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 14:16:34
          compiled from "C:\xampp\htdocs\psgit\psgit\sec_admin\themes\new-theme\template\components\layout\confirmation_messages.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:18115854465b430a75e6d3b7-64608721%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1858807225b449592e65369-53438121%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '18115854465b430a75e6d3b7-64608721',
+  'nocache_hash' => '1858807225b449592e65369-53438121',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5b430a75e986d0_36591409',
+  'unifunc' => 'content_5b449592ea2695_14278231',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b430a75e986d0_36591409')) {function content_5b430a75e986d0_36591409($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b449592ea2695_14278231')) {function content_5b449592ea2695_14278231($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['confirmations']->value)&&count($_smarty_tpl->tpl_vars['confirmations']->value)&&$_smarty_tpl->tpl_vars['confirmations']->value) {?>
   <div class="bootstrap">
     <div class="alert alert-success" style="display:block;">

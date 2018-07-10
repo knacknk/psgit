@@ -1,37 +1,22 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 09:17:13
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 14:19:53
          compiled from "module:ps_customersignin/ps_customersignin.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17936435485b444f69837f81-12661775%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.19, created on 2018-06-29 17:43:40
-         compiled from "module:ps_customersignin/ps_customersignin.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:4822922565b36459ced6467-95136498%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+<?php /*%%SmartyHeaderCode:10679405905b449659b8ee19-64872451%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'd5f8f570180f74d1dbdd1a1d2af0445e90a6650c' => 
     array (
       0 => 'module:ps_customersignin/ps_customersignin.tpl',
-<<<<<<< HEAD
-      1 => 1530879192,
+      1 => 1531217390,
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '17936435485b444f69837f81-12661775',
-=======
-      1 => 1530268792,
-      2 => 'module',
-    ),
-  ),
-  'nocache_hash' => '4822922565b36459ced6467-95136498',
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+  'nocache_hash' => '10679405905b449659b8ee19-64872451',
   'function' => 
   array (
   ),
   'variables' => 
   array (
-<<<<<<< HEAD
     'my_account_url' => 0,
     'logged' => 0,
     'customer' => 0,
@@ -39,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5b444f698d5ef7_54117990',
+  'unifunc' => 'content_5b449659c26403_26497558',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b444f698d5ef7_54117990')) {function content_5b444f698d5ef7_54117990($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_customersignin/ps_customersignin.tpl --><div id="account">
+<?php if ($_valid && !is_callable('content_5b449659c26403_26497558')) {function content_5b449659c26403_26497558($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_customersignin/ps_customersignin.tpl --><div id="account">
     <a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['my_account_url']->value, ENT_QUOTES, 'UTF-8');?>
 "><span class="account-icon"></span></a>
     <div class="account-info hidden-md-down">
@@ -103,56 +88,4 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </div>
 
 
-=======
-    'logged' => 0,
-    'logout_url' => 0,
-    'my_account_url' => 0,
-    'customerName' => 0,
-  ),
-  'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5b36459cedb131_53652484',
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b36459cedb131_53652484')) {function content_5b36459cedb131_53652484($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_customersignin/ps_customersignin.tpl -->
-<div id="_desktop_user_info">
-  <div class="user-info">
-    <?php if ($_smarty_tpl->tpl_vars['logged']->value) {?>
-      <a
-        class="logout hidden-sm-down"
-        href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['logout_url']->value, ENT_QUOTES, 'UTF-8');?>
-"
-        rel="nofollow"
-      >
-        <i class="material-icons">&#xE7FF;</i>
-        <?php echo smartyTranslate(array('s'=>'Sign out','d'=>'Shop.Theme.Actions'),$_smarty_tpl);?>
-
-      </a>
-      <a
-        class="account"
-        href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['my_account_url']->value, ENT_QUOTES, 'UTF-8');?>
-"
-        title="<?php echo smartyTranslate(array('s'=>'View my customer account','d'=>'Shop.Theme.Customeraccount'),$_smarty_tpl);?>
-"
-        rel="nofollow"
-      >
-        <i class="material-icons hidden-md-up logged">&#xE7FF;</i>
-        <span class="hidden-sm-down"><?php echo htmlspecialchars($_smarty_tpl->tpl_vars['customerName']->value, ENT_QUOTES, 'UTF-8');?>
-</span>
-      </a>
-    <?php } else { ?>
-      <a
-        href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['my_account_url']->value, ENT_QUOTES, 'UTF-8');?>
-"
-        title="<?php echo smartyTranslate(array('s'=>'Log in to your customer account','d'=>'Shop.Theme.Customeraccount'),$_smarty_tpl);?>
-"
-        rel="nofollow"
-      >
-        <i class="material-icons">&#xE7FF;</i>
-        <span class="hidden-sm-down"><?php echo smartyTranslate(array('s'=>'Sign in','d'=>'Shop.Theme.Actions'),$_smarty_tpl);?>
-</span>
-      </a>
-    <?php }?>
-  </div>
-</div>
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
 <!-- end C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_customersignin/ps_customersignin.tpl --><?php }} ?>

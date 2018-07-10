@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 09:17:14
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 14:19:54
          compiled from "module:ps_customeraccountlinks/ps_customeraccountlinks.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7974155095b444f6a5690a4-12418185%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.19, created on 2018-06-29 17:43:41
-         compiled from "module:ps_customeraccountlinks/ps_customeraccountlinks.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:9096394725b36459d052971-45791292%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+<?php /*%%SmartyHeaderCode:5826560345b44965a430245-96213914%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -17,11 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-<<<<<<< HEAD
-  'nocache_hash' => '7974155095b444f6a5690a4-12418185',
-=======
-  'nocache_hash' => '9096394725b36459d052971-45791292',
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+  'nocache_hash' => '5826560345b44965a430245-96213914',
   'function' => 
   array (
   ),
@@ -33,15 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-<<<<<<< HEAD
-  'unifunc' => 'content_5b444f6a5b6a70_76972430',
+  'unifunc' => 'content_5b44965a47e223_28664442',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b444f6a5b6a70_76972430')) {function content_5b444f6a5b6a70_76972430($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_customeraccountlinks/ps_customeraccountlinks.tpl -->
-=======
-  'unifunc' => 'content_5b36459d0575b1_98756037',
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b36459d0575b1_98756037')) {function content_5b36459d0575b1_98756037($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_customeraccountlinks/ps_customeraccountlinks.tpl -->
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+<?php if ($_valid && !is_callable('content_5b44965a47e223_28664442')) {function content_5b44965a47e223_28664442($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_customeraccountlinks/ps_customeraccountlinks.tpl -->
 
 <div id="block_myaccount_infos" class="col-md-2 links wrapper">
   <h3 class="myaccount-title hidden-sm-down">

@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 09:17:14
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 14:19:54
          compiled from "module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:19847237605b444f6a0540e9-90535811%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.19, created on 2018-06-29 17:43:40
-         compiled from "module:ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:9061407765b36459cf3ebc3-18458799%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+<?php /*%%SmartyHeaderCode:7889481205b44965a106cf5-77581927%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -17,11 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-<<<<<<< HEAD
-  'nocache_hash' => '19847237605b444f6a0540e9-90535811',
-=======
-  'nocache_hash' => '9061407765b36459cf3ebc3-18458799',
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+  'nocache_hash' => '7889481205b44965a106cf5-77581927',
   'function' => 
   array (
   ),
@@ -36,15 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-<<<<<<< HEAD
-  'unifunc' => 'content_5b444f6a0d8ac1_12404494',
+  'unifunc' => 'content_5b44965a18a395_39173243',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b444f6a0d8ac1_12404494')) {function content_5b444f6a0d8ac1_12404494($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl -->
-=======
-  'unifunc' => 'content_5b36459d004ca2_49144248',
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b36459d004ca2_49144248')) {function content_5b36459d004ca2_49144248($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl -->
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+<?php if ($_valid && !is_callable('content_5b44965a18a395_39173243')) {function content_5b44965a18a395_39173243($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/themes/classic/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl -->
 
 <div class="block_newsletter col-lg-8 col-md-12 col-sm-12">
   <div class="row">

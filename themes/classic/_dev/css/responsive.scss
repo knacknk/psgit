@@ -27,16 +27,6 @@
     }
   }
 
-<<<<<<< HEAD
-=======
-  #_desktop_top_menu .top-menu li.link {
-    padding:9px 4px!important;
-
-    a {
-      font-size:14px!important;
-    }
-  }
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
 
   .block_newsletter {
     display:block!important;
@@ -81,15 +71,6 @@
     }
   }
 
-<<<<<<< HEAD
-=======
-  .top-menu {
-    .sub-menu {
-      display:block!important;
-    }
-  }
-
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
   #products {
     margin-left:0;
   }
@@ -163,10 +144,7 @@
 @include media-breakpoint-down(sm) {
 
   #advanced_layered_navigation_filter {
-<<<<<<< HEAD
     margin-bottom:0;
-=======
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
 
     #af_form {
       display:none;
@@ -189,15 +167,6 @@
     }
   }
 
-<<<<<<< HEAD
-=======
-  .position-static {
-    #sec_search_widget {
-      display:none;
-    }
-  }
-
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
   #_mobile_search_trigger {
     font-size:25px;
     margin-top:10px;
@@ -212,22 +181,18 @@
     input[type=text] {
       width:100%!important;
     }
-<<<<<<< HEAD
     .spinner {
       display:none;
       position:absolute;
       top:13px;
       right:50px;
     }
-=======
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
     button {
       right:0!important;
     }
   }
 
   .header-top {
-<<<<<<< HEAD
     .modal-open .modal-search {
       overflow-x:hidden;
       overflow-y:auto;
@@ -284,38 +249,6 @@
                 height:100%;
               }
             }
-=======
-    .modal-dialog {
-      width:100%;
-      max-width:100%;
-      margin:0;
-
-      .modal-content {
-        border:none;
-        border-radius:0;
-
-        .modal-body {
-          padding-right:15px;
-          form {
-            position:relative;
-
-            input[type=text] {
-              width:100%;
-              border:1px solid #ccc;
-              padding:10px;
-              &:focus {
-                outline:none;
-              }
-            }
-
-            button.close {
-              position:absolute;
-              top:0;
-              right:50px;
-              cursor:pointer;
-              height:100%;
-            }
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
           }
         }
       }
@@ -337,15 +270,12 @@
     }
   }
 
-<<<<<<< HEAD
   body#search, body#manufacturer, body#new-products, body#prices-drop {
     #products {
       margin-top:0;
     }
   }
 
-=======
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
   .order-message-form {
     select.form-control.form-control-select {
       padding-right:24px!important;

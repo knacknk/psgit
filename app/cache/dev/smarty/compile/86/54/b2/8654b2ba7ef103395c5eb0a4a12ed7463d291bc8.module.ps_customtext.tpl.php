@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 09:17:12
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-10 14:19:49
          compiled from "module:ps_customtext/ps_customtext.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17219525285b444f686f5917-54358372%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
-=======
-<?php /* Smarty version Smarty-3.1.19, created on 2018-06-29 17:43:40
-         compiled from "module:ps_customtext/ps_customtext.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:5048846145b36459ce29ff5-52882877%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+<?php /*%%SmartyHeaderCode:7286396595b4496550d1e05-74496026%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -17,11 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-<<<<<<< HEAD
-  'nocache_hash' => '17219525285b444f686f5917-54358372',
-=======
-  'nocache_hash' => '5048846145b36459ce29ff5-52882877',
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+  'nocache_hash' => '7286396595b4496550d1e05-74496026',
   'function' => 
   array (
   ),
@@ -31,15 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-<<<<<<< HEAD
-  'unifunc' => 'content_5b444f68704373_16139931',
+  'unifunc' => 'content_5b4496550e0022_02899809',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b444f68704373_16139931')) {function content_5b444f68704373_16139931($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/modules/ps_customtext/ps_customtext.tpl -->
-=======
-  'unifunc' => 'content_5b36459ce2b4d7_44325711',
-),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b36459ce2b4d7_44325711')) {function content_5b36459ce2b4d7_44325711($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/modules/ps_customtext/ps_customtext.tpl -->
->>>>>>> 4c5a93e41274542815cddfde929d4572115e1fed
+<?php if ($_valid && !is_callable('content_5b4496550e0022_02899809')) {function content_5b4496550e0022_02899809($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/modules/ps_customtext/ps_customtext.tpl -->
 
 <div id="custom-text">
   <?php echo $_smarty_tpl->tpl_vars['cms_infos']->value['text'];?>
