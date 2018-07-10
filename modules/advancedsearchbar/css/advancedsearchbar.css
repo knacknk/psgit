@@ -1,0 +1,161 @@
+
+/*.ui-autocomplete {*/
+    /*display:block!important;*/
+/*}*/
+
+#sec_search_widget {
+    /*float:left;*/
+}
+
+.ui-autocomplete {
+    z-index: 9999999;
+}
+
+.ui-autocomplete.ui-front {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.ui-autocomplete.ui-front li {
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    display:flex;
+}
+
+.ui-autocomplete.ui-front li:last-child {
+    border-bottom: none;
+}
+
+.ui-autocomplete.ui-front li .product-image {
+    display: block;
+    float: left;
+    padding: 10px;
+}
+
+.ui-autocomplete.ui-front li .product-image:hover {
+    border: none;
+}
+
+.ui-autocomplete.ui-front li .product-image img {
+    max-width: 100px;
+}
+
+.ui-autocomplete.ui-front li .product-info {
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+.ui-autocomplete.ui-front li .product-info:hover {
+    border: none;
+}
+
+.ui-autocomplete.ui-front li .product-info a {
+    display: block;
+    font: 14px/21px "MontserratBlack", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #000;
+    padding:0!important;
+}
+
+.ui-autocomplete.ui-front li .product-info span {
+    font-family: "MontserratBlack", sans-serif;
+    font-size: 14px;
+}
+
+.ui-autocomplete.ui-front li .product-info span.no-reduction {
+    color: #ec4747;
+}
+
+#search_block_top #search_query_top.no-round-bottom {
+    -moz-border-radius: 32px 32px 0 0;
+    -webkit-border-radius: 32px;
+    border-radius: 32px 32px 0 0; }
+
+#ui-id-1.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 0;
+}
+
+.ui-state-focus {
+    border:none!important;
+    background:none!important;
+    padding:10px!important;
+}
+
+.ui-menu .ui-menu-item a.ui-state-focus, .ui-menu .ui-menu-item a.ui-state-active {
+    margin:0!important;
+}
+
+.old-price {
+    text-decoration:line-through;
+    font-size:12px!important;
+    margin-right:5px;
+}
+
+.searchresult-wrap {
+    position:relative;
+}
+
+.searchresult {
+    position: absolute;
+    /*max-height: 360px;*/
+    overflow: hidden;
+    right:0;
+}
+
+.nano-content {
+    position: absolute;
+    overflow: scroll;
+    overflow-x: hidden;
+    top: 0;
+    right:-17px;
+    bottom: 0;
+    left: 0;
+}
+
+.searchresult .nano-content:focus {
+    outline: thin dotted;
+}
+
+.searchresult .nano-content::-webkit-scrollbar {
+    display: none;
+}
+
+.has-scrollbar .nano-content::-webkit-scrollbar {
+    display: block;
+}
+
+.searchresult .nano-pane {
+    background: rgba(92, 203, 244, 0.30);
+    position: absolute;
+    width: 7px;
+    height: 360px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    visibility: hidden \9;
+    /* Target only IE7 and IE8 with this hack */
+    opacity: .4;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    z-index: 9999999;
+}
+
+.searchresult .nano-pane .nano-slider {
+    background: #5ccbf4;
+    opacity: .8;
+    position: relative;
+    margin: 0 1px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.searchresult:hover .nano-pane, .nano-pane.active, .nano-pane.flashed {
+    visibility: visible \9;
+    /* Target only IE7 and IE8 with this hack */
+    opacity: 0.99;
+}

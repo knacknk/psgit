@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ps_wirepayment</name>
+    <displayName><![CDATA[Plata prin transfer]]></displayName>
+    <version><![CDATA[2.0.4]]></version>
+    <description><![CDATA[Accepta plata prin transfer bancar.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Sigur doresti sa stergi aceste detali?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
