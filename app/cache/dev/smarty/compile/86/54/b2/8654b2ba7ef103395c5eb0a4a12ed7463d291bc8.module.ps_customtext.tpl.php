@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-07-12 11:18:42
+<?php /* Smarty version Smarty-3.1.19, created on 2018-07-12 11:22:51
          compiled from "module:ps_customtext/ps_customtext.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:9505755695b470ee287e649-32756352%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:12164749275b470fdb885b82-22637224%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '9505755695b470ee287e649-32756352',
+  'nocache_hash' => '12164749275b470fdb885b82-22637224',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5b470ee2884ef6_16377078',
+  'unifunc' => 'content_5b470fdb88c220_12543797',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b470ee2884ef6_16377078')) {function content_5b470ee2884ef6_16377078($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/modules/ps_customtext/ps_customtext.tpl -->
+<?php if ($_valid && !is_callable('content_5b470fdb88c220_12543797')) {function content_5b470fdb88c220_12543797($_smarty_tpl) {?><!-- begin C:\xampp\htdocs\psgit\psgit/modules/ps_customtext/ps_customtext.tpl -->
 
 <div id="custom-text">
   <?php echo $_smarty_tpl->tpl_vars['cms_infos']->value['text'];?>

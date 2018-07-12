@@ -51,7 +51,6 @@
 {/function}
 
 <div class="menu col-lg-12 js-top-menu position-static" id="sec_desktop_top_menu">
-da
     <div class="container">
         {menu nodes=$menu.children}
         <div class="clearfix"></div>
