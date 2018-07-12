@@ -52,12 +52,12 @@
                       <div class="row">
                         <div class="col-sm-5 col-xs-12">
                           <div class="row">
-                            {if $carrier.logo}
-                            <div class="col-xs-3">
-                                <img src="{$carrier.logo}" alt="{$carrier.name}" />
-                            </div>
-                            {/if}
-                            <div class="{if $carrier.logo}col-xs-9{else}col-xs-12{/if}">
+                            {*{if $carrier.logo}*}
+                            {*<div class="col-xs-3">*}
+                                {*<img src="{$carrier.logo}" alt="{$carrier.name}" />*}
+                            {*</div>*}
+                            {*{/if}*}
+                            <div class="col-xs-12">
                               <span class="h6 carrier-name">{$carrier.name}</span>
                             </div>
                           </div>
