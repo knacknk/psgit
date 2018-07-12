@@ -5,7 +5,8 @@ export default class TopMenu extends DropDown {
 
 }
 
-if ($('#sec_desktop_top_menu').is(":visible")) {
+$(document).ready(function () {
+
   $('.top-menu[data-depth=0] li > .sub-menu').parent().hover(function () {
     var submenu = $(this).children('.sub-menu');
     if ($(submenu).is(':hidden')) {
@@ -15,21 +16,21 @@ if ($('#sec_desktop_top_menu').is(":visible")) {
     }
   });
 
-  $('.top-menu[data-depth=1] li > .sub-menu2').parent().hover(function () {
+  $('.top-menu[data-depth=1] li > .sub-menu2').parent().hover(function(){
     var submenu2 = $(this).children('.sub-menu2');
-    if ($(submenu2).is(':hidden')) {
-      $(submenu2).show();
-    } else {
-      $(submenu2).hide();
-    }
+    $(submenu2).show();
+  }, function(){
+    var submenu2 = $(this).children('.sub-menu2');
+    $(submenu2).hide();
   });
 
-} else {
-  $('#menu-icon').on('click', function() {
-    $('#sec_desktop_top_menu').toggle();
+  $('#menu-icon').on('click', function () {
+    $('#mobile_top_menu_wrapper').toggle();
+    $('.top-menu[data-depth=0] > .navbar-toggler').css('display', 'none');
   });
 
-}
+});
+
 
 //New menu
 if ( $(window).width() > 992) {
